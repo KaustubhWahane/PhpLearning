@@ -6,7 +6,11 @@
 //  echo $_GET["username"] ;
 //  OR
 //  echo "{$_GET["password"]} <br>";
-    
+
+// Includes all the other files
+include ("ForLoop.php");
+include ("Counter.php");
+
 $item = "Shwarma";
 $price = 70;
 $quantity = (int)$_POST["quantity"]; 
