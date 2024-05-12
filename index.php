@@ -8,8 +8,8 @@
 //  echo "{$_GET["password"]} <br>";
 
 // Includes all the other files
-include ("ForLoop.php");
-include ("Counter.php");
+
+include ("CheckButton.php");
 
 $item = "Shwarma";
 $price = 70;
